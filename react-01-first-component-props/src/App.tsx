@@ -18,6 +18,7 @@ const App: React.FC = () => {
     <div className="App">
       {/* A component that adds todos */}
       <NewToDo onAddToDo={toDoAddHandler}/>
+      <p>Hallo</p>
       <TodoList items={todos} onDelete={deleteHandler} />
     </div>
   );
